@@ -1,0 +1,503 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section {
+    max-width: 100%;
+}
+main {
+    display: none;
+}
+nav {
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+}
+.wrapper div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+}
+.wrapper div> ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+
+}
+.wrapper div >ul >li >a {
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.active {
+    color: orangered;
+    border-bottom: 3px solid orangered;
+    padding: 2px;
+}
+.crop{
+    background-image: url(image/trust-tru-katsande-xcneHTn8DUI-unsplash.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+}
+.crop >div {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 210px;
+    padding: 5px;
+}
+.crop >div p {
+    text-align: justify;
+    color: white;
+    font-size: 15px;
+    padding-top: 12px;
+}
+.crop >div h1 {
+    color: white;
+    font-size: 35px;
+
+}
+section h2 {
+    text-align: center;
+}
+.ser {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    height: 200px;
+}
+.ser div {
+    width: 90px;
+    padding: 10px;
+    border:  none;
+}
+.ser div p {
+    padding-top: 10px;
+}
+/*IMage resize**/
+.mech {
+    height: 40%;
+    width: 60%;
+}
+.ser >div{
+    width: 10%;
+    height: 60%;
+    margin: 8%;
+    margin-top: 30px;
+}
+.ser >div >div  {
+    margin: auto;
+}
+.ser >div >p {
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+.vector-1 {
+    border-radius: 10%;
+    width: 70px;
+    background: rgb(241, 194, 177);
+    margin-top: 10px;
+}
+.vector-1 img {
+    justify-content: center;
+    align-items: center;
+}
+
+.vector-2 {
+    border-radius: 10%;
+    width: 70px;
+    background: rgb(248, 245, 245);
+    margin-top: 10px;
+}
+.vector-2 img {
+    justify-content: center;
+    align-items: center;
+}
+
+.vector-3 {
+    border-radius: 10%;
+    width: 70px;
+    background: lightblue;
+    margin-top: 10px;
+}
+.vector-3 img {
+    justify-content: center;
+    align-items: center;
+}
+
+.vector-4 {
+    border-radius: 10%;
+    width: 70px;
+    background: lightpink;
+    margin-top: 10px;
+    height: 100px;
+}
+.vector-4 img {
+    justify-content: center;
+    align-items: center;
+}
+.min {
+    width: 50px;
+    height: 50px;
+}
+.content {
+    width: 100%;
+    max-height: 100%;
+    background: rgb(205, 195, 50);
+    display: flex;
+    margin: auto;
+}
+.appoint {
+    float: left;
+    width: 60%;
+    padding: 20px;
+    text-align:left;
+    text-indent: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin: auto;
+}
+.appoint div {
+    padding-left: 20px;
+}
+.appoint img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: white;
+    float: left;
+
+}
+.appoint >div >p {
+    text-align: justify;
+}
+.rot {
+    width: 30%;
+    padding: 5px;
+    padding-left: 2px;
+}
+.format {
+  width: 25%;
+  background: white;
+  height: 310px;
+  border-radius: 0 30px;
+  margin-top: -8px;
+  margin: auto;
+
+
+}
+.format label   {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+}
+.format input {
+    padding: 4px;
+    margin-left: 10px;
+    width: 300px;
+    
+}
+.format select {
+    margin-left: 10px;
+    width: 300px;
+}
+.format button {
+   margin-top: 20px;
+   margin-left: 13px;
+   width: 299px;
+   color: white;
+   background: orangered;
+   height: 25px;
+   border: none;
+}
+
+.latest {
+    width: 100%;
+    height: 300px;
+    background: white;
+}
+.latest h3 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.late {
+    display: flex;
+    margin-top: 10px;
+}
+.late div {
+    width: 50%;
+    margin: 20px;
+    padding: 8px;
+    max-height: 200px;
+
+}
+.late div h4, .late div p {
+    padding: 15px;
+}
+.late div h4 {
+    padding-top: 0;
+}
+.late >div >a {
+    text-decoration: none;
+    color: orangered;
+    padding: 15px;
+}
+.late div p {
+    padding-top: 0px;
+    font-size: 13px;
+}
+.nop,.no {
+    height: 200px;
+    width: 260px;
+}
+.click{
+    margin: auto;
+    margin-top: 180px;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.click button {
+    width: 250px;
+    height: 40px;
+    color: white;
+    background: orangered;
+    border: none;
+    margin-bottom: 20px;
+
+}
+footer {
+    width: 100%;
+    background: black;
+    height: 400px;
+}
+.foot {
+    width: 100%;
+    height: 80px;
+    background: lightgrey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.end  {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 1.7;
+}
+.end h5 {
+    font-size: 20px;
+}
+.end p {
+    font-size: 13px;  
+}
+.end input {
+    width: 400px;
+    height: 30px;
+}
+.end button {
+    height: 29px;
+    background: orangered;
+    color: white;
+    border: none;
+    margin-left: -71px;
+    margin-top: 3px;
+    padding: 7px;
+    cursor: pointer;
+}
+.group {
+    display: flex;
+    margin: 30px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.group >div >img {
+    background: black;
+}
+.group >div >li {
+    list-style: none;
+}
+.group >div >li >a {
+    color: white;
+    text-decoration: none;
+}
+@media(max-width:1280px){
+    .format {
+        display: none;
+    }
+    .peel{
+        display: none;
+    }
+    .late div {
+        width: 50%;
+        margin: 10px;
+        padding: 8px;
+        max-height: 30px;
+    
+}
+.late div p {
+    padding-top: 0px;
+    font-size: 13px;
+    width: 200px;
+}
+.click button {
+    width: 250px;
+    height: 40px;
+    color: white;
+    background: orangered;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+.click{
+    margin: auto;
+    margin-top: 200px;
+    width: 200px;
+    height: 100px;
+}
+
+.wrapper div> ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 60%;
+}
+}
+@media(max-width:920px) {
+
+.wrapper div{
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    padding: 5px;
+    width: 100%;
+}
+
+.hmm {
+    
+}
+.wrapper div >ul >li >a {
+    align-items: left;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 12px;
+    padding: 6px;
+    padding-left: 10px;
+    font-size: 13px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.no {
+    width: 200px;
+}
+.ser >div{
+    width: 10%;
+    height: 60%;
+    margin: 6.5%;
+    margin-top: 30px;
+}
+.latest {
+    width: 100%;
+    height: 300px;
+    background: white;
+}
+.tip,.peel {
+    display: none;
+}
+.latest h3 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.wrapper div{
+    display: flex;
+    width: 100%;
+}
+.wrapper div> ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+    margin-right: 5px;
+    padding-top: 10px;
+}
+.hmm {
+    display: none;
+}
+.click{
+    margin: auto;
+    margin-top: 180px;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.click button {
+    width: 250px;
+    height: 40px;
+    color: white;
+    background: orangered;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+.foot {
+    width: 100%;
+    height: 70px;
+    background: lightgrey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot img {
+    height: 30px;
+    width: 60px;
+}
+.group {
+    display: flex;
+    margin: 30px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.group >div >img {
+    background: black;
+    width: 100%;
+    float: left;
+    padding-top: 8px;
+    padding-right: 25px;
+}
+.group p {
+    text-align: justify;
+    font-size: 11px;
+    padding-right: 10px;
+}
+.group >div >li {
+    list-style: none;
+}
+.group >div >li >a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+footer {
+    width: 100%;
+    background: black;
+    height: 350px;
+}
+}
